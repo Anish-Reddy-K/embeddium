@@ -52,14 +52,7 @@ class FileInputWidget(QWidget):
         self.uploadedFileLabel = SubtitleLabel("No file uploaded")
         layout.addWidget(self.uploadedFileLabel)
         
-        previewLabel = StrongBodyLabel("File Preview:")
-        layout.addWidget(previewLabel)
-        
-        self.previewArea = TextEdit()
-        self.previewArea.setReadOnly(True)
-        self.previewArea.setTextInteractionFlags(Qt.NoTextInteraction)
-        self.previewArea.setPlaceholderText("Data preview will appear here")
-        layout.addWidget(self.previewArea)
+        layout.addStretch(1)
         
         self.setObjectName("FileInput")
 
@@ -78,16 +71,12 @@ class FileInputWidget(QWidget):
             parent=self
         )    
 
-    def handle_file_selection(self, file_path, content):
-        # Display file content in the preview area
+    def handle_file_selection(self, file_path):
         self.selected_file = file_path
         filename = os.path.basename(file_path)
         self.fileSelected.emit(file_path, filename)
 
-        self.previewArea.setText(content[:1000] + "..." if len(content) > 1000 else content)
-
         # Copy the file to the upload directory
-        filename = os.path.basename(file_path)
         destination = os.path.join(self.upload_dir, filename)
         try:
             shutil.copy2(file_path, destination)

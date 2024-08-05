@@ -7,6 +7,9 @@
     - launch immediatly and load during this
 - add downloading model progress bar when using new ones
 - optimize the embedding progress bar to be more precise
+
+- what other embedding stats can we show
+- delay between "start embedding" and progress being shown
 --------------------
 - test all the input and output formats for embed errors
 - update personal info in settings page

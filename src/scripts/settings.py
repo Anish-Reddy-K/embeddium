@@ -3,7 +3,7 @@ import platform
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget
 
-from qfluentwidgets import *
+from qfluentwidgets import GroupHeaderCardWidget, ComboBox, FluentIcon, PushButton, InfoBar, InfoBarPosition, StrongBodyLabel, CardWidget, HyperlinkButton
 
 import torch
 
@@ -12,7 +12,7 @@ class SettingsWidget(GroupHeaderCardWidget):
         super().__init__(parent)
         self.setTitle("Computation Device Settings")
         self.setBorderRadius(8)
-        self.setContentsMargins(0, 0, 0, 16)  # Add bottom margin
+        self.setContentsMargins(0, 0, 0, 16) 
 
         self.initUI()
 

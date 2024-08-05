@@ -3,7 +3,7 @@ import os
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget, QGridLayout
 
-from qfluentwidgets import *
+from qfluentwidgets import CardWidget, StrongBodyLabel, BodyLabel, ProgressBar, ProgressRing, PushButton,TeachingTip, InfoBarIcon, TeachingTipTailPosition, InfoBar, InfoBarPosition
 
 from backend.embedding import EmbeddingBackend
 from backend.embedding_worker import EmbeddingWorker

@@ -3,7 +3,7 @@
 from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtWidgets import QLabel, QHBoxLayout, QVBoxLayout, QWidget
 
-from qfluentwidgets import *
+from qfluentwidgets import TitleLabel, BodyLabel, DropDownPushButton, CardWidget, FluentIcon, InfoBadge, TextEdit, RoundMenu, Action, InfoBar, InfoBarPosition
 
 class ModelSelectionWidget(QWidget):
     modelSelected = pyqtSignal(str)

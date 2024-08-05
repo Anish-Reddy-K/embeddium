@@ -4,7 +4,7 @@ import shutil
 from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtWidgets import QVBoxLayout, QWidget
 
-from qfluentwidgets import *
+from qfluentwidgets import TitleLabel, CaptionLabel, SubtitleLabel, InfoBar, InfoBarPosition
 
 from scripts.file_drag_drop import FileDragDropWidget
 

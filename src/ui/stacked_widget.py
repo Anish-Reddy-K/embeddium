@@ -1,7 +1,7 @@
 from PyQt5.QtCore import pyqtSignal
 from PyQt5.QtWidgets import QHBoxLayout, QFrame
 
-from qfluentwidgets import *
+from qfluentwidgets import PopUpAniStackedWidget
 
 class StackedWidget(QFrame):
     currentChanged = pyqtSignal(int)

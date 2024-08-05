@@ -3,8 +3,6 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QLabel, QHBoxLayout, QVBoxLayout
-
-from qfluentwidgets import *
 from qframelesswindow import TitleBar
 
 class CustomTitleBar(TitleBar):

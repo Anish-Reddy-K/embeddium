@@ -1,7 +1,7 @@
 from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtWidgets import QVBoxLayout, QWidget, QFileDialog
 
-from qfluentwidgets import *
+from qfluentwidgets import TitleLabel, BodyLabel, CardWidget, ComboBox, LineEdit, PushButton, FluentIcon, InfoBar, InfoBarPosition
 
 class OutputOptionsWidget(QWidget):
     outputConfigured = pyqtSignal(str, str)

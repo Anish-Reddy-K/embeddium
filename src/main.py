@@ -21,7 +21,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QHBoxLayout, QApplication
 
-from qfluentwidgets import * #FIX
+from qfluentwidgets import setTheme, Theme, setThemeColor, isDarkTheme, NavigationBar, NavigationItemPosition
 from qfluentwidgets import FluentIcon as FIF
 from qframelesswindow import FramelessWindow
 

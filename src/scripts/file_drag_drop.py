@@ -1,8 +1,5 @@
 import os
 import shutil
-import pandas as pd
-import chardet
-import json
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QFileDialog
 from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtGui import QDragEnterEvent, QDropEvent

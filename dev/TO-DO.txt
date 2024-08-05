@@ -10,6 +10,8 @@
 
 - what other embedding stats can we show
 - delay between "start embedding" and progress being shown
+
+- try to remove: "📢 Tips: QFluentWidgets Pro is now released. Click https://qfluentwidgets.com/pages/pro to learn more about it."
 --------------------
 - test all the input and output formats for embed errors
 - update personal info in settings page

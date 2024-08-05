@@ -1,5 +1,3 @@
-# embedding_backend.py
-
 import torch
 from sentence_transformers import SentenceTransformer
 import os
@@ -8,7 +6,6 @@ import pandas as pd
 import numpy as np
 import h5py
 import faiss
-from tqdm import tqdm
 import time
 import psutil
 import chardet

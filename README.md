@@ -1,44 +1,39 @@
 # Embeddium
 
-Embeddium is a Vector Embedding Generation Application for Desktop that provides an intuitive interface for generating and managing vector embeddings.
+Embeddium is a user-friendly desktop application that democratizes access to vector databases and embeddings. It's designed to simplify complex processes, making powerful embedding tools accessible to non-technical users, small businesses, researchers, and hobbyists alike.
 
 ![Embeddium Logo](resources/readme_logo.png)
 
 ## Features
 
-- User-friendly interface for file input
-- Multiple model selection options
-- Customizable output formats and locations
-- Efficient embedding generation
-- Dark and light theme support
+- **Multiple Input Formats**: Support for CSV, JSON, TXT, and XLSX file inputs.
+- **Model Selection**: Choose from popular sentence-transformers models with descriptions and performance metrics.
+- **Flexible Output Options**: Save embeddings in .pt, .npy, .hdf5, or .faiss formats.
+- **Real-time Progress Tracking**: Monitor embedding generation with estimated time remaining and processing speed.
+- **Hardware Optimization**: Utilizes CPU/GPU and multithread processing for efficient performance.
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/embeddium/releases) page.
+1. Download the latest release from the [website](https://anish-reddy-k.github.io/embeddium-app/).
 2. Extract the zip file to your desired location.
 3. Run `Embeddium.exe` to start the application.
 
 ## Usage
 
-1. **File Input**: Select the input file(s) for embedding generation.
-2. **Model Selection**: Choose the appropriate model for your embedding task.
-3. **Output Options**: Configure the output format and location.
-4. **Generate Embeddings**: Process your input and generate the embeddings.
+1. Launch Embeddium.
+2. Select your input file.
+3. Choose a sentence-transformer model.
+4. Set your desired output format and location.
+5. Start the embedding generation process.
 
-For more detailed instructions, please refer to the [User Guide](link-to-user-guide).
+For more detailed instructions, please visit to the [website]([link-to-user-guide](https://anish-reddy-k.github.io/embeddium-app/)).
 
 ## Requirements
 
 - Windows 10 or later
 - 4GB RAM (8GB recommended)
-- 500MB free disk space
+- 750MB free disk space
 
-## Building from Source
-
-To build Embeddium from source:
-
-1. Clone this repository:
-2. 
 ## License
 
 Embeddium is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -63,7 +58,8 @@ Embeddium uses the following open-source libraries:
 
 ## Author
 
-Anish Reddy
+Made with ❤️ by Anish Reddy](https://anishreddy.tech).
+For questions or support, please contact us at anishreddy3456@gmail.com or open an issue in this repository.
 
 ---
 

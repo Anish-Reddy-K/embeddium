@@ -2,7 +2,7 @@
 
 Embeddium is a Vector Embedding Generation Application for Desktop that provides an intuitive interface for generating and managing vector embeddings.
 
-![Embeddium Logo](path/to/logo.png)
+![Embeddium Logo](resources/readme_logo.png)
 
 ## Features
 

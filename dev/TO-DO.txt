@@ -23,6 +23,7 @@
 
 - code review
 - user documentation
+- code commenting
 
 - github readme - installation guide
 - developer documentation for open-source

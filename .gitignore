@@ -3,3 +3,6 @@ uploaded_files/
 setup/
 **/__pycache__/
 dev/TO-DO
+build/
+dist/
+embeddium.spec

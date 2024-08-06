@@ -58,7 +58,7 @@ Embeddium uses the following open-source libraries:
 
 ## Author
 
-Made with ❤️ by Anish Reddy](https://anishreddy.tech).
+Made with ❤️ by [Anish Reddy](https://anishreddy.tech).
 For questions or support, please contact us at anishreddy3456@gmail.com or open an issue in this repository.
 
 ---

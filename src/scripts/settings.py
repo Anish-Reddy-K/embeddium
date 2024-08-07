@@ -96,15 +96,15 @@ class SettingsWidget(GroupHeaderCardWidget):
         titleLabel = StrongBodyLabel("Developer Information")
         layout.addWidget(titleLabel)
 
-        nameButton = HyperlinkButton(FluentIcon.CONNECT, "https://yourportfolio.com", "Your Name")
+        nameButton = HyperlinkButton(FluentIcon.CONNECT, "https://www.anishreddy.tech/", "Anish Reddy")
         
-        githubButton = HyperlinkButton(FluentIcon.GITHUB, "https://github.com/yourusername", "GitHub: yourusername")
+        githubButton = HyperlinkButton(FluentIcon.GITHUB, "https://github.com/Anish-Reddy-K", "GitHub: Anish-Reddy-K")
         
-        websiteButton = HyperlinkButton(FluentIcon.LINK, "https://yourwebsite.com", "Personal Website")
+        websiteButton = HyperlinkButton(FluentIcon.LINK, "https://www.anishreddy.tech/", "Personal Website")
         
-        emailButton = HyperlinkButton(FluentIcon.MAIL , "mailto:your.email@example.com", "Email")
+        emailButton = HyperlinkButton(FluentIcon.MAIL , "mailto:anishreddy3456@gmail.com", "Email")
 
-        appWebsiteButton = HyperlinkButton(FluentIcon.GLOBE, "https://embeddium.app", "App Website: Embeddium")
+        appWebsiteButton = HyperlinkButton(FluentIcon.GLOBE, "https://anish-reddy-k.github.io/embeddium-app/", "App Website")
 
         layout.addWidget(nameButton)
         layout.addWidget(githubButton)

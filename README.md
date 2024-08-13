@@ -2,8 +2,6 @@
 
 Embeddium is a user-friendly desktop application that democratizes access to vector databases and embeddings. It's designed to simplify complex processes, making powerful embedding tools accessible to non-technical users, small businesses, researchers, and hobbyists alike.
 
-# WORKING ON THE "GPU DEVICE NOT BEING DETECTED" issue in v1.0.0, eta. 1 day
-
 Download here: https://anish-reddy-k.github.io/embeddium-app/
 
 ![Embeddium Logo](resources/readme_logo.png)
